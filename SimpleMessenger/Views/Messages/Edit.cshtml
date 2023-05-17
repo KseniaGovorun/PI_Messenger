@@ -4,7 +4,7 @@
     ViewData["Title"] = "Edit";
 }
 
-<h4>Редактирование сообщения...</h4>
+<h4>Редагування повідомлення...</h4>
 <hr/>
 <div class="row">
     <div class="col-md-4">
@@ -12,7 +12,7 @@
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <input type="hidden" asp-for="ID" />
             <div class="form-group">
-                <label asp-for="Body" class="control-label">Текст сообщения:</label>
+                <label asp-for="Body" class="control-label">Текст повідомлення:</label>
                 <input asp-for="Body" class="form-control" required/>
                 <span asp-validation-for="Body" class="text-danger"></span>
             </div>
